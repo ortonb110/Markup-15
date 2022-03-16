@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fff;
+  color: black;
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+.root {
+  margin: 0;
+}
+
+.image-container {
+  background-image: url("./assets/img/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  z-index: -2;
+}
+
+.clip-path-container {
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 68% 100%);
+  background-color: rgba(252, 198, 3, 0.8);
+  height: 100%;
+}
+
+.up {
+  position: absolute;
+  top: 0;
+  margin-top: 2rem;
+}
+
+.image {
+  width: 2rem;
+}
+
+.down {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem 3rem 0rem 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 3rem 2rem 0;
+}
+
+.view {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.view-image {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.more {
+  vertical-align: middle;
+}
+
+.text {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+
+.up,
+.down {
+  margin-left: 2rem;
+}
+
+.text-details {
+  position: absolute;
+  bottom: 20rem;
+  right: 0;
+  width: 34rem;
+  margin-right: 2rem;
+}
+
+.text-head {
+  font-size: 10rem;
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
+.details {
+  font-size: 4rem;
+  word-spacing: 0.5rem;
+  text-align: right;
+}
